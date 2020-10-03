@@ -1,0 +1,15 @@
+<import src="../../wxParse/wxParse.wxml" />
+<view class="carbook_detail">
+  <!-- <image src='{{cover}}'></image> -->
+  <view class="carbook_for">
+    <view class="carbook_title">
+      <text>{{title}}</text>
+    </view>
+    <view class="carbook_intro">
+      <text>{{content}}</text>
+    </view>
+    <view class="carbook_cont">
+      <template is="wxParse" data="{{wxParseData:article.nodes}}"></template>
+    </view>
+  </view>
+</view>

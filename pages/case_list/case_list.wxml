@@ -1,0 +1,14 @@
+<view class="box">
+  <view class="contain">
+ <view class="shop_flex">
+  <view class="shop_for" wx:for="{{list}}" data-id="{{item.id}}" bindtap="toDetail" wx:key>
+   <view class="text">
+    <text>{{item.name}}</text>
+   </view>
+    <view class="shop_image">
+     <image src="{{item.img}}"></image>
+    </view>
+  </view>
+ </view>
+ </view>
+</view>

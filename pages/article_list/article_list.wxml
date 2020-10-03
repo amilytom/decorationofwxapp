@@ -1,0 +1,19 @@
+<view class="total_car">
+  <view style='text-align:center;'>{{name}}</view>
+  <view class="total_car_flex">
+    <view class="total_car_view" wx:for="{{list}}" bindtap="goDetail" data-id="{{item.id}}" wx:key>
+      <view class="backg_white">
+        <view class="total_car_title">
+          <text>{{item.title}}</text>
+          <view class="total_car_intro">
+            <text>{{item.desc}}</text>
+          </view>
+        </view>
+        <view class="total_car_image">
+          <image mode='widthFix' src="{{item.cover}}"></image>
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>

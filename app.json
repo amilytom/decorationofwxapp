@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/article_list/article_list",
+    "pages/article/article",
+    "pages/order/order",
+    "pages/case/case",
+    "pages/case_list/case_list",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#599fff",
+    "navigationBarTitleText": "装修小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#599fff",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/h.png",
+        "selectedIconPath": "images/tabbar/h1.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "预约",
+        "iconPath": "images/tabbar/s.png",
+        "selectedIconPath": "images/tabbar/s1.png"
+      },
+      {
+        "pagePath": "pages/case_list/case_list",
+        "text": "案例",
+        "iconPath": "images/tabbar/t.png",
+        "selectedIconPath": "images/tabbar/t1.png"
+      },
+
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/tabbar/w.png",
+        "selectedIconPath": "images/tabbar/w1.png"
+      }
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json"
+}
